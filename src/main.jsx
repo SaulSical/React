@@ -8,12 +8,17 @@ import { Efecto } from './components/Efecto.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Bienvenidos a React</h1>
-    <Saludo nombre={"Saul"} apellido={"Sical"} edad={17}/>
+    <h1>Bienvenidos a react</h1>
+
+    <Saludo nombre={"Elmer"} apellido={"Santos"} edad={20} />
+
     <hr />
+
     <Padre />
-    <Contador/>
-    <Efecto/>
+
+    <Contador />
+
+    <Efecto />
+
   </StrictMode>,
 )
- 
