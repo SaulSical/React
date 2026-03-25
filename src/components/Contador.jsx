@@ -13,10 +13,6 @@ export const Contador = () => {
             <button onClick={ () => setContador(contador + 1)}>
                 Incrementar
             </button>
-
-            <button onClick={ () => setContador(contador - 1)}>
-                Disminuir
-            </button>
     </div>
   )
 }
