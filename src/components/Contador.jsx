@@ -8,15 +8,11 @@ export const Contador = () => {
 
   return (
     <div>
-        <h2>Contador: {contador}</h2>
-
-            <button onClick={ () => setContador(contador + 1)}>
-                Incrementar
-            </button>
-
-            <button onClick={ () => setContador(contador - 1)}>
-                Disminuir
-            </button>
+        <h2>useEffect: ejemplo</h2>
+        <p>Contador: {contador}</p>
+        <button onClick={() => setContador(contador + 1)}>
+            Cambiar estado
+        </button>
     </div>
   )
 }
